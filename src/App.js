@@ -41,7 +41,7 @@ function App() {
           <p className="create">Create Account</p>
         </div>
         <div className="theme-toggle">
-          <h2>Light Theme</h2>
+          <h2>{theme === 'dark' ? 'Dark Theme' : 'Light Theme'}</h2>
           <i onClick={switchTheme} class="fas fa-toggle-on"></i>
         </div>
       </div>
